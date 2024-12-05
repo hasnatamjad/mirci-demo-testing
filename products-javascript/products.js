@@ -93,6 +93,13 @@ const products = [
     image: "/products/frutti-mint.jpg",
     category: "Frutti Fresh",
   },
+  
+  {
+    id: 737,
+    name: "Frutti Black",
+    image: "/products/frutti-fresh-black.png",
+    category: "Frutti Fresh",
+  },
 ];
 
 // **************************************************
