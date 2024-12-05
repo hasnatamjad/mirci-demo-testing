@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-mont {
+  font-family: "Montserrat", sans-serif !important;
+}
+.text-green {
+  color: #51cf66;
+}
+
+.bg-green {
+  background-color: #51cf66;
+}
+
+.text-light-green {
+  color: #8ce99a;
+}
+
+.bg-light-green {
+  background-color: #8ce99a;
+}
+
+.text-dark-green {
+  color: #37b24d;
+}
+
+.bg-dark-green {
+  background-color: #37b24d;
+}
+
+.slide-1,
+.slide-2,
+.slide-3 {
+  height: 90vh;
+}
+
+@media (max-width: 640px) {
+  .slide-1,
+  .slide-2,
+  .slide-3 {
+    height: 70vh;
+  }
+}
+.slide-1 {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.5),
+      rgba(22, 22, 22, 0.5)
+    ),
+    url(images/meat-sausages.jpg);
+
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.slide-2 {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.5),
+      rgba(22, 22, 22, 0.5)
+    ),
+    url(images/crisps.jpg);
+
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.slide-3 {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.5),
+      rgba(22, 22, 22, 0.6)
+    ),
+    url(images/frutti-fresh.jpg);
+
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.category-img {
+  height: 200px; /* Adjust the height as needed */
+
+  object-fit: cover;
+}
+
+.product-img {
+  height: 220px; /* Adjust the height as needed */
+  width: 250px;
+  object-fit: cover;
+}
+
+.border-line {
+  width: 25%;
+  background-color: #000;
+  height: 2px;
+}
+
+#main-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#main-footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+#page-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#page-footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}

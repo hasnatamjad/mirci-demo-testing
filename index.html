@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mirci</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- website font roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- top bar -->
+    <div class="bg-dark-green py-3" id="main-top-bar">
+      <p class="m-0 text-light text-center h6">
+        Free delivery on order 150£ +vat 25£ delivery charges for less then 150£
+      </p>
+    </div>
+    <!-- navbar -->
+    <div id="main-header">
+      <header class="px-3 py-2">
+        <nav class="navbar navbar-expand-lg bg-white">
+          <div class="container-fluid">
+            <a class="navbar-brand" style="width: 5rem" href="index.html">
+              <img src="images/mirci-logo.jpg" class="img-fluid" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" id="shopLink" href="#categories"
+                    >Shop</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="mailto:info@mirci.co.uk"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+              <div class="d-flex" role="search">
+                <a
+                  href="mailto:info@mirci.co.uk"
+                  class="btn btn-outline-success"
+                >
+                  Order Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+
+    <!-- main section -->
+    <main>
+      <!-- slideshow -->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <!-- slide 1 -->
+          <div class="carousel-item active">
+            <div
+              class="slide-1 d-flex justify-content-center align-items-center"
+            >
+              <div class="text-center">
+                <h1 class="text-light text-center mb-2">Romanian sausages</h1>
+                <a href="#categories">
+                  <h4 class="btn bg-dark-green text-light px-4 py-2">
+                    ORDER NOW
+                  </h4>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- slide 2 -->
+          <div class="carousel-item">
+            <div
+              class="slide-2 d-flex justify-content-center align-items-center"
+            >
+              <div class="text-center">
+                <h1 class="text-light text-center mb-2">Romanian Crisps</h1>
+                <a href="#categories">
+                  <h4 class="btn bg-dark-green text-light px-4 py-2">
+                    ORDER NOW
+                  </h4>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- slide 3 -->
+          <div class="carousel-item">
+            <div
+              class="slide-3 d-flex justify-content-center align-items-center"
+            >
+              <div class="text-center">
+                <h1 class="text-light text-center mb-2">Frutti Drinks</h1>
+                <a href="#categories">
+                  <h4 class="btn bg-dark-green text-light px-4 py-2">
+                    ORDER NOW
+                  </h4>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- icons section-->
+      <div class="bg-dark-green py-4 px-4">
+        <div class="row text-center text-light py-4 gap-5 gap-md-0">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="currentColor"
+              class="bi bi-car-front-fill text-dark-green p-2 bg-white mb-3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"
+              />
+            </svg>
+
+            <h5 class="fw-bold">LOCAL DELIVERY</h5>
+            <p class="m-0">Within 25 mile radius of Stoneham</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="currentColor"
+              class="bi bi-telephone-fill p-2 text-dark-green bg-white mb-3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+              />
+            </svg>
+
+            <h5 class="fw-bold">GIVE US A CALL/TEXT</h5>
+
+            <p class="m-0">
+              <a href="tel:+447852132718" class="text-white">+44 7852 132718</a>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="38"
+              height="38"
+              fill="currentColor"
+              class="bi bi-cart-check-fill p-2 bg-white text-dark-green mb-3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708z"
+              />
+            </svg>
+
+            <h5 class="fw-bold">SHIPPING WITHIN UK</h5>
+            <p class="m-0">United Kingdom</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="currentColor"
+              class="bi bi-clipboard-check-fill p-2 bg-white text-dark-green mb-3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"
+              />
+              <path
+                d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"
+              />
+            </svg>
+
+            <h5 class="fw-bold">CUSTOMER CARE</h5>
+            <p class="m-0">24/7 support from us</p>
+          </div>
+        </div>
+      </div>
+      <!-- products -->
+      <div class="py-5" id="categories">
+        <div class="px-5 py-5">
+          <div class="row text-center mb-4">
+            <h2 class="text-dark-green fw-bold">Our Products</h2>
+            <!-- <p class="border-line text-center"></p> -->
+          </div>
+          <div id="categoryList" class="row pt-4"></div>
+        </div>
+      </div>
+
+      <!-- testimonials -->
+      <div class="bg-secondary bg-opacity-10 py-5">
+        <div class="container text-center">
+          <div class="row">
+            <h2 class="text-dark-green fw-bold">Testimonials</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-dark-green">
+        <div class="container py-4">
+          <div class="d-md-flex justify-content-between py-3">
+            <h4 class="text-white fw-bold">So what are you waiting for?</h4>
+
+            <a class="btn btn-light px-4 text-dark-green rounded-1 text-center"
+              >Order Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div id="main-footer">
+      <footer class="bg-dark pt-5 pb-1 px-md-5 px-4">
+        <div class="contair">
+          <div class="d-flex flex-column flex-md-row">
+            <!-- menu -->
+            <div class="col-md-3 d-flex flex-column mb-5 mb-md-0">
+              <h4 class="text-green mb-4">Our Products</h4>
+              <div class="d-flex flex-column gap-2 col-md-9">
+                <p class="text-light">
+                  Specializing in the best grocery products from Bulgaria,
+                  Albania, Romania, Turkey and More!!
+                </p>
+              </div>
+            </div>
+
+            <!-- menu -->
+            <div class="col-md-3 d-flex flex-column mb-5 mb-md-0">
+              <h4 class="text-green mb-4">Menu</h4>
+              <div class="d-flex flex-column gap-2">
+                <a href="index.html">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Contact Us</a>
+              </div>
+            </div>
+            <!-- services -->
+            <div class="col-md-3 d-flex flex-column mb-5 mb-md-0">
+              <h4 class="text-green mb-4">Categories</h4>
+              <div class="d-flex flex-column gap-2">
+                <a href="/products.html?category=Romanian%20Sausages"
+                  >Romanian Sausages</a
+                >
+                <a href="/products.html?category=Romanian%20Crisps"
+                  >Romanian Crisps</a
+                >
+                <a href="/products.html?category=Romanina%20Cheese"
+                  >Romanina Cheese</a
+                >
+                <a href="/products.html?category=Frutti%20Fresh"
+                  >Frutti Fresh</a
+                >
+              </div>
+            </div>
+            <!-- contact us -->
+            <div class="col-md-3 d-flex flex-column mb-5 mb-md-0">
+              <h4 class="text-green mb-4">Contact Us</h4>
+              <a href="tel:+447852132718" class="inline-block mb-3"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  fill="currentColor"
+                  class="bi bi-telephone-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                  ></path>
+                </svg>
+                +44 7852 132718</a
+              >
+
+              <a
+                href="mailto:info@garmentcareexpress.com"
+                class="inline-block mb-3"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  fill="currentColor"
+                  class="bi bi-envelope-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                  ></path>
+                </svg>
+                info@mirci.co.uk</a
+              >
+              <a class="inline-block"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-geo-alt-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                  />
+                </svg>
+                Shipping Within UK</a
+              >
+            </div>
+          </div>
+          <hr class="text-light" />
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between align-items-md-center"
+          >
+            <p class="text-green">
+              &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Mirci UK. All rights reserved.
+            </p>
+            <p class="copyright-text text-light">
+              Designed by
+              <span class="text-green text-decoration-underline">MHasnat</span>
+              | Powered by
+              <a
+                href="https://webroger.co.uk/"
+                class="text-light-sky text-decoration-underline"
+                >WEB ROGER</a
+              >
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- ******************************************** -->
+    <!-- main JS -->
+    <script src="JS-FILES/main.js"></script>
+    <!-- menu JS -->
+    <script src="JS-FILES/menu.js"></script>
+    <!-- category JS -->
+    <script src="PRODUCTS-JAVASCRIPT/categories.js"></script>
+    <!-- bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
