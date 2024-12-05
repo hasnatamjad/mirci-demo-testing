@@ -89,7 +89,7 @@ const products = [
   },
   {
     id: 12,
-    name: "Frutti Mint",
+    name: "Frutti Mint Tesging",
     image: "/products/frutti-mint.jpg",
     category: "Frutti Fresh",
   },
